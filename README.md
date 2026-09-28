@@ -179,8 +179,8 @@ Alternatively, you can "git clone" this repository to any directory and run
 [install](https://github.com/junegunn/fzf/blob/master/install) script.
 
 ```sh
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.local/share/fzf
+~/.local/share/fzf/install
 ```
 
 The install script will add lines to your shell configuration file to modify
@@ -269,7 +269,7 @@ fzf is being actively developed, and you might want to upgrade it once in a
 while. Please follow the instruction below depending on the installation
 method used.
 
-- git: `cd ~/.fzf && git pull && ./install`
+- git: `cd ~/.local/share/fzf && git pull && ./install`
 - brew: `brew update; brew upgrade fzf`
 - macports: `sudo port upgrade fzf`
 - chocolatey: `choco upgrade fzf`
@@ -434,7 +434,7 @@ or `py`.
 - `FZF_DEFAULT_OPTS_FILE`
     - If you prefer to manage default options in a file, set this variable to
       point to the location of the file
-    - e.g. `export FZF_DEFAULT_OPTS_FILE=~/.fzfrc`
+    - e.g. `export FZF_DEFAULT_OPTS_FILE=~/.config/fzfrc`
 
 > [!WARNING]
 > `FZF_DEFAULT_COMMAND` is not used by shell integration due to the

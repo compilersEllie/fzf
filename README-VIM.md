@@ -35,8 +35,8 @@ set rtp+=/usr/local/opt/fzf
 " If installed using Homebrew on Apple Silicon
 set rtp+=/opt/homebrew/opt/fzf
 
-" If you have cloned fzf on ~/.fzf directory
-set rtp+=~/.fzf
+" If you have cloned fzf on ~/.local/share/fzf directory
+set rtp+=~/.local/share/fzf
 ```
 
 If you use [vim-plug](https://github.com/junegunn/vim-plug), the same can be
@@ -49,8 +49,8 @@ Plug '/usr/local/opt/fzf'
 " If installed using Homebrew on Apple Silicon
 Plug '/opt/homebrew/opt/fzf'
 
-" If you have cloned fzf on ~/.fzf directory
-Plug '~/.fzf'
+" If you have cloned fzf on ~/.local/share/fzf directory
+Plug '~/.local/share/fzf'
 ```
 
 But if you want the latest Vim plugin file from GitHub rather than the one

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 xdg=0
-prefix='~/.fzf'
-prefix_expand=~/.fzf
+prefix='~/.local/share/fzf'
+prefix_expand=~/.local/share/fzf
 fish_dir=${XDG_CONFIG_HOME:-$HOME/.config}/fish
 
 help() {

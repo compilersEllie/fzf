@@ -7,8 +7,8 @@ auto_completion=
 key_bindings=
 update_config=2
 shells="bash zsh fish nushell"
-prefix='~/.fzf'
-prefix_expand=~/.fzf
+prefix='~/.local/share/fzf'
+prefix_expand=~/.local/share/fzf
 fish_dir=${XDG_CONFIG_HOME:-$HOME/.config}/fish
 
 help() {
@@ -16,7 +16,7 @@ help() {
 usage: $0 [OPTIONS]
 
     --help               Show this message
-    --bin                Download fzf binary only; Do not generate ~/.fzf.{bash,zsh}
+    --bin                Download fzf binary only; Do not generate ~/.local/share/fzf.{bash,zsh}
     --all                Download fzf binary and update configuration files
                          to enable key bindings and fuzzy completion
     --xdg                Generate files under \$XDG_CONFIG_HOME/fzf
